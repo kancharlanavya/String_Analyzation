@@ -1,0 +1,51 @@
+-----------------------
+Pre-requisite
+-----------------------
+
+Softwares:
+Python - Version 2.7.14
+PyCharm - download
+
+Libraries: 
+Logging
+log
+
+To run:
+In PyCharm -
+1. Go to Test_analyze_string - select run to get the output.
+
+----------------------
+Script Usage
+----------------------
+
+Syntax:  ./string_analyze.py <input_string>
+
+input_string - contains the sentence for which longest word and length of longest string need to be find
+
+Example:
+string_analyze.py sumanth is great
+Longest string = sumanth
+Length of longest string = 7
+
+string_analyze.py sumanth is great
+Longest string = sumanth
+Length of longest string = 7
+
+---------------------------------------------------- ***************************** -----------------------------------
+
+Unit Test case execution:
+
+test_analyze_string.py
+ERROR:root:Sufficient inoputs are missing
+Longest string = jumped
+Length of longest string = 6
+.ERROR:root:'NoneType' object has no attribute 'split'
+WARNING:root:Null String provided as input
+.WARNING:root:Null String provided as input
+.Longest string = ThisisNavys
+Length of longest string = 11
+.
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
