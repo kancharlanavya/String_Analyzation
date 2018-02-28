@@ -2,16 +2,15 @@
 Pre-requisite
 -----------------------
 
-Softwares:
+Softwares to be installed:
 Python - Version 2.7.14
 PyCharm - download
 
-Libraries: 
+Libraries needed: 
 Logging
 log
 
-To run:
-In PyCharm -
+To run using PyCharm -
 1. Go to Test_analyze_string - select run to get the output.
 
 ----------------------
